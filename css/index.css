@@ -1,3 +1,257 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.nav{
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	margin-left: 2%;
+}
+
+a{
+	padding: 2%;
+	text-decoration:none;
+	color: gray;
+	width: 12%;
+}
+
+h1{
+	font-size: 70px;
+	text-align: center;
+}
+.header{
+	display:flex;
+	align-items: flex-start;
+	justify-content:space-between;
+	width: 55%;
+}
+
+.first{
+	display: flex;
+	width: 55%;
+	margin-top: 2%;
+	margin-left: 3%;
+	padding: 1%;
+	justify-content: space-between;
+}
+
+.innov{
+	margin-left: 8%;
+	padding-top: 7%;
+}
+
+.started{
+	display: flex;
+	flex-direction: row;
+	width: 150px;
+	border: 1px solid black;
+	padding: 4px;
+	margin-left: 25%;
+	justify-content: center;
+}
+
+.chunk{
+	display:flex;
+	width:55%;
+	margin-left: 3%;
+	
+}
+
+.second{
+	display:flex;
+	flex-direction: column;
+	width: 50%;
+	
+}
+
+.second2{
+	display:flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.rectangle{
+	margin-left: 3%
+}
+
+.chunk2{
+	display:flex;
+	width:57%;
+	margin-left: 3%;
+	margin-top: 2%;
+	justify-content: space-between;
+}
+
+.third{
+	width:40%;
+	display:flex;
+	flex-direction: column;
+	padding-right: 2%;
+	align-content: space-between;
+}
+
+.copyright{
+	margin-left: 25%;
+}
+
+.contact{
+	margin-left: 3%;
+}
+
+/* SERVICES PAGE STARTS HERE*/
+
+.electronics{
+	
+	margin-top: 2%;
+	margin-bottom: 2%;
+
+}
+
+.header2{
+	display:flex;
+	align-items: flex-start;
+	justify-content:space-between;
+	width: 880px;;
+}
+.second3{
+	display:flex;
+	width: 880px;
+	margin-bottom: 3%;
+	flex-wrap: wrap;
+}
+
+.middle{
+	display:flex;
+	width: 880px;
+	margin-top: 2%;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.box{
+	padding: 3%;	
+	background-color: #d1cfcf;
+	border: 1px solid black;
+	width: 50%;
+	margin: 2% 2% 5% 0;
+	
+	
+}
+
+.learn{
+	display: flex;
+	border-radius: 4px;
+	width: 100px;
+	border: 1px solid black;
+	padding: 4px;
+	margin-left: 2%;
+	justify-content: center;
+	margin-top:6%
+}
+
+.test{
+	display:flex;
+}
+
+.box2{
+	padding: 3%;	
+	background-color: #d1cfcf;
+	border: 1px solid black;
+	width: 50%;
+	margin: 2% 0 5% 2%;
+	padding-right: 2%;	
+}
+.footer{
+	display:flex;
+	width: 880px;
+	margin-top: 4%;
+	margin-bottom: 8%;
+}
+.facts{
+	display:flex;
+	flex-wrap: wrap;
+	padding-right: 4%;
+}
+.lady{
+	display:flex;
+	padding-left: 0%
+}
+body{
+	width: 800px;
+	margin:2% 22%;
+}
+
+hr{
+	width: 880px;
+}
+
+ul{
+	list-style-type: unset;
+	list-style-position: inside;
+}
+
+.copyright2{
+	margin-left: 40%;
+}
 
